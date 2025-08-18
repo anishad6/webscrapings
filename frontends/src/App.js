@@ -57,6 +57,9 @@
 
 // export default App;
 
+const CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || 
+                   "126474618620-l23p7893eu8uprgcfcuon1fsqvl1087g.apps.googleusercontent.com";
+
 
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
