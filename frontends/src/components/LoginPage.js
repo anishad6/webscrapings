@@ -125,7 +125,7 @@ export default function LoginPage({ setIsLoggedIn, setUser }) {
         
         <div className="google-login-btn">
           <GoogleLogin
-            // clientId="126474618620-l23p7893eu8uprgcfcuon1fsqvl1087g.apps.googleusercontent.com"
+            clientId="126474618620-l23p7893eu8uprgcfcuon1fsqvl1087g.apps.googleusercontent.com"
             buttonText="Login with Google"
             onSuccess={handleLoginSuccess}
             onFailure={ handleLoginFailure}
